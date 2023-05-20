@@ -89,7 +89,7 @@ video {
 }
 
 .card{
-    max-width: 70%;
+    max-width: 65%;
 }
 
 .link{
@@ -124,13 +124,16 @@ video {
     .link img{
         width: 40%;
     }
-    .inner-container img{
-        width: 40%;
-    }
     .inner-container{
         flex-direction: row;
     }
     .enter-button{
         bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .card{
+        max-width: 40%;
     }
 }

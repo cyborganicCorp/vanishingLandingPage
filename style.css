@@ -136,4 +136,8 @@ video {
     .card{
         max-width: 40%;
     }
+} @media screen and (min-width: 1000px){
+    .card{
+        max-width: 25%;
+    }
 }

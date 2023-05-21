@@ -57,10 +57,11 @@
     flex-direction: column;
     background-color: black;
     border-radius: 5px;
-    
 }
-video {
+.video {
     max-width: 90vw;
+    border-radius: 2px;
+    border: solid 2px white;
 }
 @keyframes loading {
     from{ transform: rotate(0turn)}
@@ -83,8 +84,8 @@ video {
     bottom: 20svh;
     background-image: linear-gradient(to bottom, #ae470b, #d40606);
     border-radius: 5px;
-    border-color: linear-gradient(to bottom, #ae470b, #d40606);
-    text-decoration: none;
+    /*border-color: linear-gradient(to bottom, #ae470b, #d40606);*/
+    /*text-decoration: none;*/
     /*box-shadow: 1px 1px 20px 0px black;*/
 }
 

@@ -80,7 +80,7 @@ video {
     width: 100px;
     height: 25px;
     position: absolute;
-    bottom: 20svhmove ;
+    bottom: 20svh;
     background-image: linear-gradient(to bottom, #ae470b, #d40606);
     border-radius: 5px;
     border-color: linear-gradient(to bottom, #ae470b, #d40606);

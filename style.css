@@ -120,7 +120,7 @@ video {
     flex-direction: column;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 700px){
     .link img{
         width: 40%;
     }
@@ -132,7 +132,7 @@ video {
     }
 }
 
-@media screen and (max-width: 650px){
+/*@media screen and (max-width: 650px){
     .card{
         max-width: 40%;
     }
@@ -140,4 +140,4 @@ video {
     .card{
         max-width: 25%;
     }
-}
+}*/

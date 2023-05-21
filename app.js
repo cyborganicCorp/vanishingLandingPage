@@ -1,5 +1,5 @@
 console.log('hello');
-/*window.onload = () => {
+window.onload = () => {
     setTimeout(() => {
         const loader = document.querySelector('.loader');
         const video = document.querySelector('.video');
@@ -26,7 +26,7 @@ console.log('hello');
         enterButton.classList.remove('hidden');
         window.addEventListener('click', enterSite);
     }, 2000)
-}*/
+}
 
 function enterSite(){
     console.log('the enter button has been clicked');

@@ -84,7 +84,7 @@ video {
     background-image: linear-gradient(to bottom, #ae470b, #d40606);
     border-radius: 5px;
     text-decoration: none;
-    box-shadow: 1px 1px 20px 0px black;
+    /*box-shadow: 1px 1px 20px 0px black;*/
 }
 
 .card{

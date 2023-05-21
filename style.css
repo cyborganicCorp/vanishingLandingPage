@@ -84,7 +84,7 @@
     position: absolute;
     bottom: 20svh;
     background-image: linear-gradient(to bottom, #ae470b, #d40606);
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     /*border-color: linear-gradient(to bottom, #ae470b, #d40606);*/
     /*text-decoration: none;*/
     /*box-shadow: 1px 1px 20px 0px black;*/

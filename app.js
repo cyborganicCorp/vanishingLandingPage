@@ -26,7 +26,7 @@ window.onload = () => {
         enterButton.classList.remove('hidden');
         setTimeout(() => {
             enterButton.style.opacity = 1;
-        },500)
+        },700)
         
         window.addEventListener('click', enterSite);
     }, 2000)

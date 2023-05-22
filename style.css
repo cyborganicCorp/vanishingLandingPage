@@ -58,10 +58,8 @@
     background-color: black;
     border-radius: 5px;
 }
-.video {
+video {
     max-width: 90vw;
-    border-radius: 2px;
-    border: solid 2px white;
 }
 @keyframes loading {
     from{ transform: rotate(0turn)}
@@ -149,8 +147,16 @@
     .card{
         max-width: 40%;
     }
-} @media screen and (min-width: 1000px){
+}*/ 
+@media screen and (min-width: 1280px){
     .card{
         max-width: 25%;
     }
-}*/
+}
+
+@media screen and (max-height: 750px){
+    .card{
+        max-height: 20%;
+        width: auto;
+    }
+}

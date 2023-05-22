@@ -139,7 +139,7 @@ video {
         flex-direction: row;
     }
     .enter-button{
-        bottom: 20%;
+        bottom: 15svh;
     }
 }
 
@@ -150,13 +150,14 @@ video {
 }*/ 
 @media screen and (min-width: 1280px){
     .card{
-        max-width: 25%;
+        max-width: 45%;
+        height: auto;
     }
 }
 
 @media screen and (max-height: 750px){
     .card{
-        max-height: 20%;
+        max-height: 80%;
         width: auto;
     }
 }

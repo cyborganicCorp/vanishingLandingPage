@@ -24,6 +24,10 @@ window.onload = () => {
         video.classList.remove('hidden');
         loader.remove();
         enterButton.classList.remove('hidden');
+        setTimeout(() => {
+            enterButton.style.opacity = 1;
+        },500)
+        
         window.addEventListener('click', enterSite);
     }, 2000)
 }

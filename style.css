@@ -71,6 +71,11 @@
     from{ transform: rotate(0turn)}
     to{ transform: rotate(-1turn)}
 }
+
+/*@keyframes appear{
+    0% { opacity: 0}
+    100% { opacity: 100}
+}*/
 @font-face{
     font-family: 'exo2';
     src: url('./source/exo_2/Exo2-Black.otf')
@@ -91,6 +96,9 @@
     /*border-color: linear-gradient(to bottom, #ae470b, #d40606);*/
     /*text-decoration: none;*/
     /*box-shadow: 1px 1px 20px 0px black;*/
+    /*animation: appear 1s linear e;*/
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 .card{

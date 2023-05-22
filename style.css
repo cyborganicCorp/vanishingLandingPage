@@ -143,11 +143,6 @@ video {
     }
 }
 
-/*@media screen and (max-width: 650px){
-    .card{
-        max-width: 40%;
-    }
-}*/ 
 @media screen and (min-width: 1280px){
     .card{
         max-width: 45%;
